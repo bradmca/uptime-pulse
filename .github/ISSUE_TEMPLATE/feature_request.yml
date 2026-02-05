@@ -1,0 +1,21 @@
+name: "Feature Request"
+description: "Suggest an idea for Uptime-Pulse"
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: vision
+    attributes:
+      label: What is your vision?
+      description: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Is your feature request related to a problem? Please describe.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: A clear and concise description of any alternative solutions or features you've considered.

@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  width: 100%;
+}
+
+.barContainer {
+  display: flex;
+  gap: 2px;
+  height: 32px;
+  width: 100%;
+}
+
+.segment {
+  flex: 1;
+  border-radius: 1px;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.segment:hover {
+  transform: scaleY(1.2);
+  filter: brightness(1.2);
+  z-index: 10;
+}
+
+.up {
+  background: var(--color-success);
+  opacity: 0.8;
+}
+
+.down {
+  background: var(--color-error);
+}
+
+.degraded {
+  background: var(--color-warning);
+}
+
+.no-data {
+  background: var(--color-bg-tertiary);
+  opacity: 0.3;
+}
+
+.legend {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Uptime-Pulse ⚡
 
-## Getting Started
+[![CI / Continuous Integration](https://github.com/USER_OR_ORG/uptime-pulse/actions/workflows/ci.yml/badge.svg)](https://github.com/USER_OR_ORG/uptime-pulse/actions)
+[![Uptime Check](https://github.com/USER_OR_ORG/uptime-pulse/actions/workflows/uptime-check.yml/badge.svg)](https://github.com/USER_OR_ORG/uptime-pulse/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-First, run the development server:
+<p align="center">
+  <img src="public/social-preview.png" alt="Uptime Pulse Social Preview" width="100%">
+</p>
 
+> **"As a dev-ops engineer, I want a simple way to monitor my microservices without paying for Pingdom."**
+
+---
+
+## 📺 Demo
+
+<p align="center">
+  <img src="public/demo.gif" alt="Uptime Pulse Demo Animation">
+</p>
+
+Uptime-Pulse is a **lightweight, premium, and open-source** uptime monitoring solution. Built for speed, aesthetic excellence, and simplicity. Monitor your microservices, track latency, and receive downtime alerts without the enterprise price tag.
+
+---
+
+## ✨ Features
+
+- **💎 Premium Dashboard**: Stunning dark theme with glassmorphism, pulse animations, and interactive elements.
+- **🕒 24h Visual History**: Segmented status bars providing a 24-hour lookback at a glance.
+- **📈 Latency Tracking**: Real-time measurement of response times with historical averages.
+- **🔔 Proactive Alerts**: Integrated notification system for downtime and recovery.
+- **🤖 Automation First**: GitHub Actions workflow included for hands-free 24/7 monitoring.
+- **📦 Zero Heavy Dependencies**: Simple JSON file-based storage. No complex database migrations.
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone & Install
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/USER_OR_ORG/uptime-pulse.git
+cd uptime-pulse
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Configure (Optional)
+Copy `.env.example` to `.env` and set your deployment domain and secrets.
+```bash
+cp .env.example .env
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Run Locally
+```bash
+npm run dev
+```
+Navigate to [http://localhost:3000](http://localhost:3000).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Core**: [Next.js 15 (App Router)](https://nextjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styles**: Vanilla CSS with Modern Design Tokens
+- **CI/CD**: [GitHub Actions](https://github.com/features/actions)
+- **Icons**: Custom Hand-crafted SVGs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤖 Automate Your Monitoring
 
-## Deploy on Vercel
+To run checks every 5 minutes automatically:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Deploy to **Vercel** or **Netlify**.
+2. Go to your GitHub Repository **Settings > Secrets and variables > Actions**.
+3. Add `APP_DOMAIN` (e.g., `uptime-pulse-demo.vercel.app`).
+4. Add `API_SECRET` (optional).
+5. The `Uptime Check` action will now run every 5 minutes and keep your dashboard alive!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📁 Project Structure
+
+```text
+├── .github/workflows/   # CI/CD and Automation
+├── src/
+│   ├── app/             # Next.js Routes & Dashboard
+│   ├── components/      # Glassmorphic UI Components
+│   ├── lib/             # Health Checker, Storage, Notifications
+│   └── types/           # Type Definitions
+├── data/                # Persistent JSON Storage
+└── public/              # Static Assets
+```
+
+---
+
+## 🤝 Contributing
+
+We love contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
+
+## 🛡️ Security
+
+Found a bug? See our [SECURITY.md](SECURITY.md).
+
+## 📄 License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+---
+
+<p align="center">
+  Built with ❤️ by the Uptime-Pulse community.
+</p>
