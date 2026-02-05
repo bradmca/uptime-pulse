@@ -4,19 +4,11 @@
 [![Uptime Check](https://github.com/bradmca/uptime-pulse/actions/workflows/uptime-check.yml/badge.svg)](https://github.com/bradmca/uptime-pulse/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<p align="center">
-  <img src="public/social-preview.png" alt="Uptime Pulse Social Preview" width="100%">
-</p>
-
 > **"As a dev-ops engineer, I want a simple way to monitor my microservices without paying for Pingdom."**
 
 ---
 
-## 📺 Demo
-
-<p align="center">
-  <img src="public/demo.gif" alt="Uptime Pulse Demo Animation">
-</p>
+## 📺 Preview
 
 Uptime-Pulse is a **lightweight, premium, and open-source** uptime monitoring solution. Built for speed, aesthetic excellence, and simplicity. Monitor your microservices, track latency, and receive downtime alerts without the enterprise price tag.
 
