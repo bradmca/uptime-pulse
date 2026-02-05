@@ -1,7 +1,7 @@
 # ⚡ Uptime-Pulse ⚡
 
-[![CI / Continuous Integration](https://github.com/USER_OR_ORG/uptime-pulse/actions/workflows/ci.yml/badge.svg)](https://github.com/USER_OR_ORG/uptime-pulse/actions)
-[![Uptime Check](https://github.com/USER_OR_ORG/uptime-pulse/actions/workflows/uptime-check.yml/badge.svg)](https://github.com/USER_OR_ORG/uptime-pulse/actions)
+[![CI / Continuous Integration](https://github.com/bradmca/uptime-pulse/actions/workflows/ci.yml/badge.svg)](https://github.com/bradmca/uptime-pulse/actions)
+[![Uptime Check](https://github.com/bradmca/uptime-pulse/actions/workflows/uptime-check.yml/badge.svg)](https://github.com/bradmca/uptime-pulse/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
@@ -37,7 +37,7 @@ Uptime-Pulse is a **lightweight, premium, and open-source** uptime monitoring so
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/USER_OR_ORG/uptime-pulse.git
+git clone https://github.com/bradmca/uptime-pulse.git
 cd uptime-pulse
 npm install
 ```
