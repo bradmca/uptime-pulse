@@ -1,0 +1,12 @@
+uptime-monitoring
+api-monitor
+nextjs
+dashboard
+devops
+typescript
+status-page
+self-hosted
+alert-system
+latency-tracking
+open-source
+serverless
