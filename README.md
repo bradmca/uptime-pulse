@@ -99,6 +99,4 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ---
 
-<p align="center">
-  Built with ❤️ by the Uptime-Pulse community.
-</p>
+⭐ If this project helps you, please give it a star!
